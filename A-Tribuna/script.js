@@ -5,25 +5,25 @@
 // Dados do carrossel com fotos e manchetes
 const carouselData = [
     {
-        image: "https://i.imgur.com/rX0oP3P.jpeg",
+        image: "https://i.redd.it/j9vj6nj23h9a1.png",
         title: "Governo Anuncia Pacote de Medidas Econômicas para Estimular o Crescimento",
         subtitle: "Acompanhe os principais acontecimentos da política brasileira",
         link: "articles/politica-1.html"
     },
     {
-        image: "https://i.imgur.com/1e7lO0x.jpeg",
+        image: "https://brasil.un.org/sites/default/files/styles/featured_image/public/2023-03/ZWD_banner_small_Dandora_2%2C_Duncan_Moore_UNEP.jpg?itok=651yYg9e",
         title: "Crise Global de Energia: O que o Brasil Pode Aprender com a Europa?",
         subtitle: "Análise aprofundada sobre os desafios e oportunidades no cenário internacional.",
         link: "articles/mundo-1.html"
     },
     {
-        image: "https://i.imgur.com/dD9yK9k.jpeg",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqDOm1ngj1aVTt2Dij886xZkpJpI2Gy14sKg&s",
         title: "Inovação em SC: Projetos de Educação Tecnológica que Estão Mudando o Futuro",
         subtitle: "Destaques da Semana Nacional de Ciência e Tecnologia.",
         link: "articles/ciencia_tecnologia-1.html"
     },
     {
-        image: "https://i.imgur.com/1G6e7jS.jpeg",
+        image: "https://static.historiadomundo.com.br/2024/06/homens-jogando-futebol-uma-alusao-a-historia-do-esporte-mais-popular-do-mundo.jpg",
         title: "Futebol Nacional: Os Melhores Momentos e Próximos Jogos da Semana",
         subtitle: "Tudo sobre o seu time e as principais competições esportivas.",
         link: "articles/esportes-1.html"
