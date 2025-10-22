@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Tribuna - Portal de Notícias</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo-section">
+                <img src="logo.jpg" alt="A Tribuna Logo" class="logo-img">
+                <div class="logo-text">
+                    <p class="tagline">Informação que transforma vidas</p>
+                </div>
+            </div>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="categories/politica.html">Política</a></li>
+                    <li><a href="categories/mundo.html">Mundo</a></li>
+                    <li><a href="categories/economia.html">Economia</a></li>
+                    <li><a href="categories/entretenimento.html">Entretenimento</a></li>
+                    <li><a href="categories/esportes.html">Esportes</a></li>
+                    <li><a href="categories/ciencia_tecnologia.html">Ciência e Tecnologia</a></li>
+                    <li><a href="categories/educacao_sociedade.html">Educação e Sociedade</a></li>
+                    <li><a href="categories/estilo_de_vida.html">Estilo de Vida</a></li>
+                    <li><a href="pages/login.html" style="font-weight: bold; color: #ffeb3b;">Área de Membros</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Home Section -->
+        <section id="home-section" class="home-section">
+            <div class="container">
+                <!-- Carousel -->
+                <section class="carousel-section">
+                    <div class="carousel-container">
+                        <!-- Conteúdo do carrossel será gerado por script.js -->
+                    </div>
+                    <div class="carousel-controls">
+                        <button onclick="prevSlide()">❮</button>
+                        <button onclick="nextSlide()">❯</button>
+                    </div>
+                </section>
+
+                <!-- Ticker -->
+                <section class="ticker-section">
+                    <span class="ticker-label">AO VIVO</span>
+                    <div class="ticker-content">
+                        <span>📰 Governo anuncia novas medidas econômicas</span>
+                        <span>⚽ Seleção brasileira se classifica para próxima fase</span>
+                        <span>💼 Bolsa de valores fecha em alta</span>
+                    </div>
+                </section>
+
+                <!-- Latest News Grid -->
+                <section class="latest-news">
+                    <h2>Últimas Notícias</h2>
+                    <div id="latest-news-grid" class="news-grid">
+                        <!-- Notícias mais recentes serão listadas aqui -->
+                        <!-- Exemplo de card de notícia (será preenchido estaticamente ou com JS para home) -->
+                        <div class="news-card">
+                            <a href="articles/politica-1.html">
+                                <img src="https://i.imgur.com/rX0oP3P.jpeg" alt="Governo anuncia novas medidas econômicas" class="news-image">
+                                <div class="news-content">
+                                    <h3>Governo anuncia novas medidas econômicas</h3>
+                                    <p>O governo federal anunciou nesta terça-feira um pacote de medidas econômicas que visa estimular o crescimento e criar novas oportunidades de emprego...</p>
+                                    <span class="read-more">Ler Matéria Completa →</span>
+                                </div>
+                            </a>
+                        </div>
+                         <div class="news-card">
+                            <a href="articles/mundo-1.html">
+                                <img src="https://i.imgur.com/1e7lO0x.jpeg" alt="Notícia 1 - Mundo" class="news-image">
+                                <div class="news-content">
+                                    <h3>Notícia 1 - Mundo</h3>
+                                    <p>Esta é uma notícia importante sobre mundo. Mundo é um tema de grande relevância para a sociedade brasileira e para o mundo...</p>
+                                    <span class="read-more">Ler Matéria Completa →</span>
+                                </div>
+                            </a>
+                        </div>
+                         <div class="news-card">
+                            <a href="articles/economia-1.html">
+                                <img src="https://i.imgur.com/Xw1Vp0Q.jpeg" alt="Notícia 1 - Economia" class="news-image">
+                                <div class="news-content">
+                                    <h3>Notícia 1 - Economia</h3>
+                                    <p>Esta é uma notícia importante sobre economia. Economia é um tema de grande relevância para a sociedade brasileira e para o mundo...</p>
+                                    <span class="read-more">Ler Matéria Completa →</span>
+                                </div>
+                            </a>
+                        </div>
+                         <div class="news-card">
+                            <a href="articles/entretenimento-1.html">
+                                <img src="https://i.imgur.com/0zR2t5N.jpeg" alt="Notícia 1 - Entretenimento" class="news-image">
+                                <div class="news-content">
+                                    <h3>Notícia 1 - Entretenimento</h3>
+                                    <p>Esta é uma notícia importante sobre entretenimento. Entretenimento é um tema de grande relevância para a sociedade brasileira e para o mundo...</p>
+                                    <span class="read-more">Ler Matéria Completa →</span>
+                                </div>
+                            </a>
+                        </div>
+                         <div class="news-card">
+                            <a href="articles/esportes-1.html">
+                                <img src="https://i.imgur.com/1G6e7jS.jpeg" alt="Notícia 1 - Esportes" class="news-image">
+                                <div class="news-content">
+                                    <h3>Notícia 1 - Esportes</h3>
+                                    <p>Esta é uma notícia importante sobre esportes. Esportes é um tema de grande relevância para a sociedade brasileira e para o mundo...</p>
+                                    <span class="read-more">Ler Matéria Completa →</span>
+                                </div>
+                            </a>
+                        </div>
+                         <div class="news-card">
+                            <a href="articles/ciencia_tecnologia-1.html">
+                                <img src="https://i.imgur.com/dD9yK9k.jpeg" alt="Notícia 1 - Ciência e Tecnologia" class="news-image">
+                                <div class="news-content">
+                                    <h3>Notícia 1 - Ciência e Tecnologia</h3>
+                                    <p>Esta é uma notícia importante sobre ciência e tecnologia. Ciência e Tecnologia é um tema de grande relevância para a sociedade brasileira e para o mundo...</p>
+                                    <span class="read-more">Ler Matéria Completa →</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>Sobre</h4>
+                    <ul>
+                        <li><a href="pages/sobre.html">Sobre o Site</a></li>
+                        <li><a href="pages/privacidade.html">Política de Privacidade</a></li>
+                        <li><a href="pages/termos.html">Termos de Uso</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Políticas</h4>
+                    <ul>
+                        <li><a href="pages/cookies.html">Cookies</a></li>
+                        <li><a href="pages/privacidade.html">Privacidade</a></li>
+                        <li><a href="pages/termos.html">Termos Legais</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contato</h4>
+                    <ul>
+                        <li><a href="pages/contato.html">Fale Conosco</a></li>
+                        <li><a href="mailto:contato@atribuna.com.br">Email</a></li>
+                        <li><a href="tel:+551130000000">Telefone</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 A Tribuna. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
