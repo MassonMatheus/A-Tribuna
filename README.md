@@ -93,7 +93,4 @@ Sinta-se à vontade para estudar, modificar e evoluir o código! 🚀
 
 ---
 
-### 🌟 Desenvolvido com dedicação por:
-**Rafael Steffens** e **Gili Ardi**  
-Programa Jovem Programador — Santa Catarina  
-2025
+
