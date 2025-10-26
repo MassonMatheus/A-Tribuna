@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Área de Membros - A Tribuna</title>
+    <link rel="stylesheet" href="../styles.css">
+    <style>
+        .members-content {
+            padding: 2rem 0;
+        }
+        .members-content h1 {
+            color: var(--primary-color);
+            margin-bottom: 1.5rem;
+            border-bottom: 3px solid var(--primary-color);
+            padding-bottom: 0.5rem;
+        }
+        .members-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 30px;
+        }
+        .featured-news-card {
+            background-color: var(--white-color);
+            border-radius: 8px;
+            box-shadow: var(--shadow);
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .featured-news-card h2 {
+            color: var(--primary-dark);
+            margin-bottom: 10px;
+        }
+        .featured-news-card p {
+            margin-bottom: 15px;
+        }
+        .recipe-card {
+            background-color: #fff8e1; /* Cor suave para receitas */
+            border: 1px solid #ffecb3;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: var(--shadow);
+        }
+        .recipe-card h3 {
+            color: #ff9800; /* Laranja para destaque */
+            margin-bottom: 10px;
+            border-bottom: 1px dashed #ffecb3;
+            padding-bottom: 5px;
+        }
+        .recipe-card ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+        .recipe-card img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 6px;
+            margin-bottom: 15px;
+        }
+        .logout-button {
+            background-color: #d32f2f;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            float: right;
+        }
+        .logout-button:hover {
+            background-color: #b71c1c;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo-section">
+                <a href="../index.html"><img src="../pages/logo.png"alt="A Tribuna Logo" class="logo-img"></a>
+                <div class="logo-text">
+                    <p class="tagline">Informação que transforma vidas</p>
+                </div>
+            </div>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../categories/politica.html">Política</a></li>
+                    <li><a href="../categories/mundo.html">Mundo</a></li>
+                    <li><a href="../categories/economia.html">Economia</a></li>
+                    <li><a href="../categories/entretenimento.html">Entretenimento</a></li>
+                    <li><a href="../categories/esportes.html">Esportes</a></li>
+                    <li><a href="../categories/ciencia_tecnologia.html">Ciência e Tecnologia</a></li>
+                    <li><a href="../categories/educacao_sociedade.html">Educação e Sociedade</a></li>
+                    <li><a href="../categories/estilo_de_vida.html">Estilo de Vida</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="container members-content">
+            <button class="logout-button" onclick="logout()">Sair</button>
+            <h1>Bem-vindo(a) à Área de Membros Premium!</h1>
+            <p>Conteúdo exclusivo, análises aprofundadas e dicas para o seu dia a dia.</p>
+
+            <div class="members-grid">
+                <div class="main-column">
+                    <h2>Notícias Exclusivas e Análises Aprofundadas</h2>
+
+                    <!-- Notícia 1 Premium -->
+                    <div class="featured-news-card">
+                        <h2>Análise: O Impacto da Taxa Selic no Orçamento Familiar</h2>
+                        <img src="https://i.imgur.com/Xw1Vp0Q.jpeg" alt="Gráfico de economia" style="width: 100%; height: 250px; object-fit: cover; margin-bottom: 15px;">
+                        <p>Uma análise detalhada de como as decisões do Banco Central afetam diretamente o poder de compra, o crédito e os investimentos das famílias brasileiras. Saiba como se proteger da inflação e otimizar suas finanças.</p>
+                        <a href="#" style="color: var(--primary-color); font-weight: bold;">Leia a Análise Completa →</a>
+                    </div>
+
+                    <!-- Notícia 2 Premium -->
+                    <div class="featured-news-card">
+                        <h2>Tendências de Carreira para 2026: As Profissões do Futuro</h2>
+                        <img src="https://i.imgur.com/2Y4k7b0.jpeg" alt="Tecnologia e Carreira" style="width: 100%; height: 250px; object-fit: cover; margin-bottom: 15px;">
+                        <p>Descubra quais são as áreas que mais crescerão no próximo ano e as habilidades essenciais para se destacar no mercado de trabalho. Um guia completo para quem busca recolocação ou transição de carreira.</p>
+                        <a href="#" style="color: var(--primary-color); font-weight: bold;">Confira o Guia de Carreira →</a>
+                    </div>
+                </div>
+
+                <div class="sidebar-column">
+                    <h2>Receitas Exclusivas da Vovó Tribuna</h2>
+
+                    <!-- Receita 1 -->
+                    <div class="recipe-card">
+                        <h3>Bolo de Fubá Cremoso da Roça</h3>
+                        <img src="https://i.imgur.com/v8p0q4c.jpeg" alt="Bolo de Fubá" style="width: 100%; height: 150px; object-fit: cover;">
+                        <p>O segredo da Vovó para um bolo de fubá que derrete na boca. Perfeito para o café da tarde!</p>
+                        <h4>Ingredientes:</h4>
+                        <ul>
+                            <li>2 xícaras de fubá</li>
+                            <li>3 ovos grandes</li>
+                            <li>1 xícara de queijo ralado</li>
+                            <li>Leite, açúcar, óleo e fermento.</li>
+                        </ul>
+                        <a href="#" style="color: #ff9800; font-weight: bold;">Ver Modo de Preparo Completo →</a>
+                    </div>
+
+                    <!-- Receita 2 -->
+                    <div class="recipe-card">
+                        <h3>Frango Xadrez Caseiro Rápido</h3>
+                        <img src="https://i.imgur.com/R3p81tL.jpeg" alt="Frango Xadrez" style="width: 100%; height: 150px; object-fit: cover;">
+                        <p>Uma receita prática e deliciosa para o jantar, com o toque especial da culinária oriental caseira.</p>
+                        <h4>Ingredientes:</h4>
+                        <ul>
+                            <li>500g de peito de frango em cubos</li>
+                            <li>Pimentões coloridos</li>
+                            <li>Amendoim torrado</li>
+                            <li>Molho shoyu e gengibre.</li>
+                        </ul>
+                        <a href="#" style="color: #ff9800; font-weight: bold;">Ver Modo de Preparo Completo →</a>
+                    </div>
+                </div>
+            </div>
+            
+            <h2 style="margin-top: 30px;">Benefícios Exclusivos Adicionais</h2>
+            <ul style="list-style-type: none; padding: 0;">
+                <li style="margin-bottom: 10px; background-color: #e3f2fd; padding: 10px; border-radius: 4px; border-left: 5px solid var(--primary-color);">✅ **Newsletters Semanais Exclusivas:** Receba no seu e-mail um resumo aprofundado das notícias que realmente importam.</li>
+                <li style="margin-bottom: 10px; background-color: #e3f2fd; padding: 10px; border-radius: 4px; border-left: 5px solid var(--primary-color);">✅ **Acesso Antecipado:** Leia todas as reportagens 24 horas antes do público geral.</li>
+                <li style="margin-bottom: 10px; background-color: #e3f2fd; padding: 10px; border-radius: 4px; border-left: 5px solid var(--primary-color);">✅ **Comunidade de Leitores:** Participe de fóruns exclusivos para debater os temas do momento com a equipe de jornalismo.</li>
+            </ul>
+
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-bottom">
+                <p>&copy; 2025 A Tribuna. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="../script.js"></script>
+    <script>
+        // Função de Logout - limpa o estado de login e redireciona
+        function logout() {
+            localStorage.removeItem('isLoggedIn');
+            window.location.href = 'login.html';
+        }
+
+        // Proteção de Rota: Verifica se o usuário está logado
+        if (localStorage.getItem('isLoggedIn') !== 'true') {
+            window.location.href = 'login.html';
+        }
+    </script>
+</body>
+</html>
