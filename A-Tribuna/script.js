@@ -11,21 +11,21 @@ const carouselData = [
         link: "articles/politica-1.html"
     },
     {
-        image: "https://brasil.un.org/sites/default/files/styles/featured_image/public/2023-03/ZWD_banner_small_Dandora_2%2C_Duncan_Moore_UNEP.jpg?itok=651yYg9e",
-        title: "Crise Global de Energia: O que o Brasil Pode Aprender com a Europa?",
-        subtitle: "Análise aprofundada sobre os desafios e oportunidades no cenário internacional.",
+        image: "https://conteudo.imguol.com.br/c/noticias/17/2025/10/22/guardas-sao-vistos-na-frente-do-louvre-em-22out2025-dia-da-reabertura-do-museu-apos-assalto-1761150846766_v2_900x506.jpg.webp",
+        title: "Roubo no Louvre mobiliza autoridades francesas e internacionais",
+        subtitle: "Um golpe audacioso em menos de vinte minutos deixa a França em alerta e reacende o debate sobre a segurança do patrimônio histórico.",
         link: "articles/mundo-1.html"
     },
     {
-        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqDOm1ngj1aVTt2Dij886xZkpJpI2Gy14sKg&s",
-        title: "Inovação em SC: Projetos de Educação Tecnológica que Estão Mudando o Futuro",
-        subtitle: "Destaques da Semana Nacional de Ciência e Tecnologia.",
+        image: "https://i.ibb.co/jvxJnctd/satelite.png",
+        title: "Satélites brasileiros monitoram desmatamento na Amazônia em tempo real",
+        subtitle: "Tecnologia espacial a serviço do meio ambiente e da preservação da floresta.",
         link: "articles/ciencia_tecnologia-1.html"
     },
     {
-        image: "https://static.historiadomundo.com.br/2024/06/homens-jogando-futebol-uma-alusao-a-historia-do-esporte-mais-popular-do-mundo.jpg",
-        title: "Futebol Nacional: Os Melhores Momentos e Próximos Jogos da Semana",
-        subtitle: "Tudo sobre o seu time e as principais competições esportivas.",
+        image: "https://i.ibb.co/C5L5RY63/futebol.png",
+        title: "Seleção brasileira vence amistoso com nova geração em campo",
+        subtitle: "Com gols e personalidade, jovens talentos mostram força e prometem protagonismo rumo à próxima Copa do Mundo.",
         link: "articles/esportes-1.html"
     }
 ];
