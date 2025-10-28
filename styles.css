@@ -116,6 +116,14 @@ body {
     background-color: rgba(0, 0, 0, 0.1);
 }
 
+.menu-toggle{
+    display: none;
+    background-color: transparent;
+    color: var(--white-color);
+    border: none;
+    font-size: 18px;
+}
+
 /* ============================================
    MAIN CONTENT
    ============================================ */
@@ -585,16 +593,29 @@ body {
    ============================================ */
 
 @media (max-width: 768px) {
+
     .header .container {
         flex-direction: column;
-        gap: 1rem;
+        align-items: flex-start;
+    
     }
 
     .nav-menu ul {
         flex-direction: column;
         width: 100%;
+        display: none;
     }
 
+    .nav-menu.active ul {
+        display: flex;
+    }
+
+    .menu-toggle{
+        display: block;
+        align-self: flex-end;
+        margin-left: auto;
+    }
+    
     .nav-menu li {
         border-right: none;
         border-bottom: 1px solid rgba(255, 255, 255, 0.2);
