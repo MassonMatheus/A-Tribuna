@@ -211,6 +211,7 @@ body {
     align-items: center;
     gap: 1rem;
     overflow: hidden;
+    position: relative;
 }
 
 .ticker-label {
@@ -219,6 +220,7 @@ body {
     font-weight: bold;
     border-radius: 4px;
     white-space: nowrap;
+    position: relative;
     z-index: 2;
 }
 
@@ -228,6 +230,7 @@ body {
     margin-left: 2rem;
     animation: scroll-left 20s linear infinite;
     white-space: nowrap;
+    z-index: 1;
 }
 
 .ticker-content span {
