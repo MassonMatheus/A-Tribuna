@@ -224,13 +224,18 @@ body {
     z-index: 2;
 }
 
+.ticker-wrapper {
+    flex: 1;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+
 .ticker-content {
     display: flex;
     gap: 3rem;
-    margin-left: 2rem;
     animation: scroll-left 20s linear infinite;
     white-space: nowrap;
-    z-index: 1;
 }
 
 .ticker-content span {
