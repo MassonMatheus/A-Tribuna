@@ -1,7 +1,3 @@
-/* ============================================
-   VARIÁVEIS E RESET GLOBAL
-   ============================================ */
-
 :root {
     --primary-color: #003366;
     --primary-light: #004d99;
@@ -39,9 +35,7 @@ body {
     padding: 0 20px;
 }
 
-/* ============================================
-   HEADER E NAVEGAÇÃO
-   ============================================ */
+/* COMEÇO CABEÇALHO */
 
 .header {
     background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-light) 100%);
@@ -124,18 +118,12 @@ body {
     font-size: 18px;
 }
 
-/* ============================================
-   MAIN CONTENT
-   ============================================ */
-
 .main-content {
     min-height: calc(100vh - 200px);
     padding: 2rem 0;
 }
 
-/* ============================================
-   CAROUSEL
-   ============================================ */
+/* CARROSEL */
 
 .carousel-section {
     margin-bottom: 2rem;
@@ -211,9 +199,7 @@ body {
     background-color: rgba(0, 0, 0, 0.8);
 }
 
-/* ============================================
-   TICKER
-   ============================================ */
+/* AO VIVO */
 
 .ticker-section {
     background-color: var(--primary-dark);
@@ -233,11 +219,13 @@ body {
     font-weight: bold;
     border-radius: 4px;
     white-space: nowrap;
+    z-index: 2;
 }
 
 .ticker-content {
     display: flex;
     gap: 3rem;
+    margin-left: 2rem;
     animation: scroll-left 20s linear infinite;
     white-space: nowrap;
 }
@@ -255,9 +243,7 @@ body {
     }
 }
 
-/* ============================================
-   NEWS GRID
-   ============================================ */
+/* ULTIMAS NOTICIAS */
 
 .latest-news {
     margin-bottom: 3rem;
@@ -332,9 +318,7 @@ body {
     color: var(--primary-light);
 }
 
-/* ============================================
-   CATEGORY SECTION
-   ============================================ */
+/* CATEGORIAS */
 
 .category-section {
     padding: 2rem 0;
@@ -348,9 +332,7 @@ body {
     padding-bottom: 1rem;
 }
 
-/* ============================================
-   ARTICLE SECTION
-   ============================================ */
+/* ARTIGOS */
 
 .article-section {
     padding: 2rem 0;
@@ -470,9 +452,7 @@ body {
     color: #999;
 }
 
-/* ============================================
-   PAGES SECTION
-   ============================================ */
+/* PAGINAS */
 
 .pages-section {
     padding: 2rem 0;
@@ -516,9 +496,7 @@ body {
     margin-bottom: 0.5rem;
 }
 
-/* ============================================
-   BUTTONS
-   ============================================ */
+/* BOTÕES */
 
 .btn-back {
     background-color: var(--primary-color);
@@ -537,9 +515,7 @@ body {
     background-color: var(--primary-light);
 }
 
-/* ============================================
-   FOOTER
-   ============================================ */
+/* RODAPÉ */
 
 .footer {
     background-color: var(--primary-color);
@@ -588,9 +564,7 @@ body {
     color: rgba(255, 255, 255, 0.8);
 }
 
-/* ============================================
-   RESPONSIVE
-   ============================================ */
+/* PARTE RESPONSIVA */
 
 @media (max-width: 768px) {
 

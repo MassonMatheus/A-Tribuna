@@ -1,7 +1,3 @@
-// ============================================
-// A TRIBUNA - SCRIPT PRINCIPAL
-// ============================================
-
 // Dados do carrossel com fotos e manchetes
 const carouselData = [
     {
@@ -33,9 +29,7 @@ const carouselData = [
 let currentSlide = 0;
 let slideInterval;
 
-// ============================================
-// CAROUSEL FUNCTIONS
-// ============================================
+// Funções do CARROSSEL
 
 function renderCarousel() {
     const container = document.querySelector(".carousel-container");
@@ -95,9 +89,7 @@ function startAutoSlide() {
     }, 5000); 
 }
 
-// ============================================
-// COMMENTS FUNCTION
-// ============================================
+// Funções dos COMENTÁRIOS
 
 function addComment(event) {
     event.preventDefault();
@@ -120,19 +112,13 @@ function addComment(event) {
     textarea.value = "";
 }
 
-// ============================================
-// CONTACT FORM
-// ============================================
-
 function submitContactForm(event) {
     event.preventDefault();
     alert("Obrigado por sua mensagem! Entraremos em contato em breve.");
     event.target.reset();
 }
 
-// ============================================
-// INITIALIZATION
-// ============================================
+// INICIALIZAÇÃO
 
 document.addEventListener("DOMContentLoaded", function() {
     // Renderiza o carrossel na página inicial

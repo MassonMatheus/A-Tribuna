@@ -12,9 +12,9 @@ Este projeto foi desenvolvido como **projeto final do Programa Jovem Programador
 | **Gabriel Machado** | Desenvolvimento e Estruturação de Layout |
 | **Giliard Nascimento** | Desenvolvimento e Estruturação de Layout |
 | **Guilherme Santini** | Desenvolvimento e Estruturação de Layout |
-| **Matheus** | Desenvolvimento e Estruturação de Layout |
-| **Matheus** | Desenvolvimento e Estruturação de Layout |
-| **Rafael** | Desenvolvimento e Estruturação de Layout |
+| **Matheus Masson** | Desenvolvimento e Estruturação de Layout |
+| **Matheus Schneider** | Desenvolvimento e Estruturação de Layout |
+| **Rafael Carvalho** | Desenvolvimento e Estruturação de Layout |
 
 ---
 
